@@ -1,3 +1,8 @@
+'''
+Total number of Bikes
+Total rental rate and available socks
+Break
+'''
 class BikeShop:
     def __init__(self,stock,):
         self.stock=stock
