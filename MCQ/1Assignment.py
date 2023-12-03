@@ -29,7 +29,7 @@ del book'''
 twice = hello(2)
 print(twice(5))'''
 
-class MultiplierClass:
+'''class MultiplierClass:
     def __init__(self, factor):
         self.Factor = factor
 
@@ -44,5 +44,18 @@ class MultiplierClass:
 twice = MultiplierClass.hello(2)
 
 # Use the multiplier method to get the output
-print(twice.multiplier(5))
+print(twice.multiplier(5))'''
+#Q3)
+class Point:
+    x=0
+    y=0
+    def __init__(self,x,y):
+        Point.x=x
+        Point.y=y
+        self.x=x
+        self.y=y
+p1 = Point(1,2)
+p2 = Point(3,4)
+p2.x=2
 
+#Output:
