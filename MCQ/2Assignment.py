@@ -75,13 +75,13 @@ print(a[3])'''
 Jython,IronPython,Pydev,Django
 '''
 
-'''
-frameworks = ['Jython', 'IronPython', 'Pydev', 'Django']
-sorted_frameworks = sorted(frameworks)
 
-for framework in sorted_frameworks:
-    print(framework)
-    '''
+# frameworks = ['Jython', 'IronPython', 'Pydev', 'Django']
+# sorted_frameworks = sorted(frameworks)
+#
+# for framework in sorted_frameworks:
+#     print(framework)
+
 
 '''name = ['santosh','shobha','rajni','raushan']
 arrange=sorted(name)
@@ -95,9 +95,9 @@ DA = 5000.34
 print("My salary is %d" % (Basicsalary+DA))'''
 
 
-Basicsalary = 55000.56
-DA = 5000.34
-print("My salary is %.2f" % (Basicsalary + DA))
+# Basicsalary = 55000.56
+# DA = 5000.34
+# print("My salary is %.2f" % (Basicsalary + DA))
 
 
 

@@ -1,4 +1,4 @@
-#Python program to print all Prime numbers in an Interval
+#Python program to check whether a number is Prime or not
 
 n = int(input("Enter the number: "))
 for i in range (2,n):
